@@ -1,0 +1,12 @@
+[build-system]
+requires = ['poetry-core>=1.5.1']
+build-backend = 'poetry.core.masonry.api'
+
+[tool.poetry]
+name = 'simple_di'
+version = '0.0.1'
+description = 'Library for making dependency injection'
+authors = ['Leonid Vinogradov <l.vinogradov@hh.ru>']
+
+[tool.poetry.dependencies]
+python = '~=3.12'
